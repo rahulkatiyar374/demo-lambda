@@ -3,7 +3,7 @@ frameworkVersion: '3.38.0'
 provider:
   name: aws
   runtime: nodejs18.x
-  region: ap-south-1
+  region: ap-south-2
   stage: prod
   httpApi:
     cors: true
