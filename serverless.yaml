@@ -1,0 +1,17 @@
+service: express-lambda-app
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-south-1
+  stage: prod
+  httpApi:
+    cors: true
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi: '*'

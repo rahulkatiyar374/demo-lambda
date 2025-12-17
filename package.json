@@ -1,0 +1,17 @@
+{
+  "name": "demo-lambda",
+  "version": "1.0.0",
+  "description": "Express app deployement on AWS lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "serverless": "^4.28.0",
+    "serverless-http": "^4.0.0"
+  }
+}
