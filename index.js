@@ -3,7 +3,7 @@ const serverless = require('serverless-http')
 
 const app = express()
 
-app.use('/api/', (req,res)=>{
+app.use('/api/test', (req,res)=>{
     res.send("hello lambda")
 })
 app.use('/api/getUser', (req,res)=>{
